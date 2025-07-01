@@ -1,0 +1,83 @@
+{
+  "Utilisateur": [
+    {
+      "id": "1",
+      "name": "Ali",
+      "email": "ali@example.com",
+      "adresse": "Mamou",
+      "telephone": "653434",
+      "langue": "poular",
+      "role": "admin",
+      "pointCr": "Mamou"
+    },
+    {
+      "id": "0115",
+      "prenom": "Mamadou ",
+      "nom": "Diallo ",
+      "email": "m@gmai.com",
+      "telephone": "655454455",
+      "adresse": "Mamou",
+      "langue": "Français"
+    }
+  ],
+
+  "PointCollecteRecyclage":[
+    {
+      "id": "1",
+      "descriptif": "Kimbeli poubel 1",
+      "latitude": 10.3776,
+      "longitude": -12.0915,
+      "type": "recyclage",
+      "responsable": "Philipe"
+    },
+    {
+      "id": "2",
+      "descriptif": "Kimbeli poubel 2",
+      "latitude": 10.3778,
+      "longitude": -12.0914,
+      "type": "recyclage",
+      "responsable": "Anna"
+    },
+    {
+      "id": "3",
+      "descriptif": "Kimbeli poubel 3",
+      "latitude": 10.3775,
+      "longitude": -12.0913,
+      "type": "recyclage",
+      "responsable": "Mohamed"
+    },
+    {
+      "id": "4",
+      "descriptif": "Kimbeli poubel 4",
+      "latitude": 10.3777,
+      "longitude": -12.0916,
+      "type": "recyclage",
+      "responsable": "Fatou"
+    },
+    {
+      "id": "5",
+      "descriptif": "Kimbeli poubel 5",
+      "latitude": 10.3779,
+      "longitude": -12.0917,
+      "type": "recyclage",
+      "responsable": "Ibrahim"
+    },
+    {
+      "id": "6",
+      "descriptif": "Kimbeli poubel 6",
+      "latitude": 10.3774,
+      "longitude": -12.0912,
+      "type": "recyclage",
+      "responsable": "Nana"
+    },
+    {
+      "id": "7",
+      "descriptif": "Kimbeli poubel 7",
+      "latitude": 10.3780,
+      "longitude": -12.0918,
+      "type": "recyclage",
+      "responsable": "Seydou"
+    }
+ ]
+  
+}
