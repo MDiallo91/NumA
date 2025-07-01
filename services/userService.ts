@@ -21,7 +21,7 @@ export default class UtilisateurService {
       })
         .then(async (response) => {
           const json = await response.json();
-          if (!response.ok) throw new Error(json.message || " ");
+          if (!response.ok) throw new Error(json.message || "Erreur lors du chargement");
           return json.data;
         })
         .catch(this.handleError);
@@ -35,7 +35,7 @@ export default class UtilisateurService {
       })
         .then(async (response) => {
           const json = await response.json();
-          if (!response.ok) throw new Error(json.message || " ");
+          if (!response.ok) throw new Error(json.message || "Erreur lors du chargement");
           return json.data;
         })
         .catch(this.handleError);
@@ -49,7 +49,7 @@ export default class UtilisateurService {
       })
         .then(async (response) => {
           const json = await response.json();
-          if (!response.ok) throw new Error(json.message || " ");
+          if (!response.ok) throw new Error(json.message || "Erreur lors du chargement");
           return json.data;
         })
         .catch(this.handleError);
